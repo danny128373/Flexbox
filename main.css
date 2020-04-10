@@ -1,6 +1,21 @@
+nav li{
+  list-style-type: none;
+  display: inline-block;
+  flex-direction: row;
+  width: 31%;
+  background: red;
+  padding: 1em 0;
+  
+}
+
 .pageHeader {
   text-align: center;
   margin: 1em 0;
+  font-size: large;
+  background: black;
+  color:white;
+  padding: 1em 0;
+  
 }
 
 .list {
@@ -16,4 +31,7 @@
   border: 1px dashed black;
   min-width: 30%;
   margin: 0 .5%;
+  padding: 1em 0;
+  background: royalblue;
+  color: white;
 }
